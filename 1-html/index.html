@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zettabyte Coding Test</title>
+
+    <!-- Use Remix Icon to get Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="box">
+        <img
+          class="thumbnail-img"
+          src="https://cdn.pixabay.com/photo/2016/02/10/01/16/cat-1190842_960_720.jpg"
+          alt="cat-1"
+        />
+        <div class="content">
+          <div class="heading">
+            <h1>Top eastern road trips</h1>
+            <p>2000 miles of wonder</p>
+            <hr />
+          </div>
+          <div class="description">
+            Cards provide context and an entry point to more robust information
+            and views, and their content and quantity can be vary greatly.
+          </div>
+        </div>
+        <div class="bottom-menu-1">
+          <div class="button-group">
+            <button class="button-children">Share</button>
+            <button class="button-children">Explore</button>
+          </div>
+          <button class="button-children button-dropdown">
+            <i class="ri-arrow-down-s-line"></i>
+          </button>
+        </div>
+      </div>
+      <div class="box">
+        <img
+          class="thumbnail-img"
+          src="https://img4.goodfon.com/wallpaper/nbig/5/a5/kot-koshki-osen-priroda-ryzhii-kot-stepna-stiopka.jpg"
+          alt="cat-1"
+        />
+        <div class="content">
+          <div class="heading">
+            <h1>Top Winter Location</h1>
+            <p>More than 200 locations</p>
+            <hr />
+          </div>
+        </div>
+        <div class="bottom-menu-1">
+          <div class="button-group">
+            <button class="button-children">Share</button>
+            <button class="button-children">Explore</button>
+          </div>
+          <button class="button-children button-dropdown">
+            <i class="ri-arrow-down-s-line"></i>
+          </button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="creator">
+          <img src="https://i.pravatar.cc/100" alt="Avatar" class="avatar" />
+          <div>
+            <h2 class="name">John Doe</h2>
+            <p class="last-online">20 mins. ago</p>
+          </div>
+          
+        </div>
+        <img
+          class="thumbnail-img"
+          src="https://img3.goodfon.com/wallpaper/nbig/9/19/kot-trava-priroda-zelen.jpg"
+          alt="cat-3"
+        />
+        <div class="content">
+          <div class="heading">
+            <h1>Kangaroo Valey Safari</h1>
+            <p>Free on thursdays</p>
+            <hr />
+          </div>
+          <div class="description">
+            Cards provide context and an entry point to more robust information
+            and views, and their content and quantity can be vary greatly.
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <img
+          class="thumbnail-img"
+          src="https://www.hudsonvet.com/wp-content/uploads/2018/11/happy-cat-feet.jpg"
+          alt="cat-4"
+        />
+        <div class="bottom-menu-2">
+          <button class="button-children button-icon">
+            <i class="ri-map-pin-line"></i>
+          </button>
+          <button class="button-children button-icon">
+            <i class="ri-bookmark-fill"></i>
+          </button>
+          <button class="button-children button-icon">
+            <i class="ri-heart-fill"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+    body {
+      background-color: rgb(245, 245, 245);
+      padding-left: 2rem;
+      padding-right: 4rem;
+      font-family: "Poppins", sans-serif;
+      margin: auto;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: auto;
+      margin-top: 3rem;
+    }
+
+    .box {
+      background-color: rgb(255, 255, 255);
+      filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
+        drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+      width: 22%;
+      height: fit-content;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      max-height: 10rem;
+    }
+
+    .creator {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .creator .name {
+      margin: 0;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    .creator .last-online {
+      margin: 0;
+      margin-top: 0.2rem;
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+
+    .avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 0.75rem;
+    }
+
+    .content {
+      padding: 1rem;
+    }
+
+    .content .heading h1 {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      margin: 0;
+    }
+
+    .content .heading p {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      margin: 0;
+      margin-top: 0.5rem;
+      color: rgb(165, 165, 165);
+    }
+
+    .content .description {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    .bottom-menu-1 {
+      display: flex;
+      justify-content: space-between;
+      margin: 0rem 1rem 1rem 1rem;
+    }
+
+    .button-children {
+      text-transform: uppercase;
+      border-width: 0;
+      background-color: transparent;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      color: #69bce5;
+      border-radius: 0.5rem;
+    }
+
+    .button-children:hover {
+      background-color: rgba(163, 163, 163, 0.1);
+    }
+
+    .button-children:active {
+      transform: scale(0.95);
+    }
+
+    .button-dropdown {
+      color: #303233;
+    }
+
+    .bottom-menu-1 .button-group {
+      display: flex;
+    }
+
+    .bottom-menu-2 {
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 1rem;
+    }
+
+    .button-icon {
+      color: #303233;
+    }
+
+    .button-icon:hover {
+      color: #69bce5;
+    }
+  </style>
+</html>
